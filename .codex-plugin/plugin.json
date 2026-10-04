@@ -1,0 +1,26 @@
+{
+  "name": "cavalry",
+  "version": "0.2.0",
+  "description": "Create and refine editable motion in Cavalry through its native local MCP server and structured timing actions.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Cavalry",
+    "shortDescription": "Motion graphics through Cavalry's local MCP",
+    "longDescription": "A personal Codex plugin that connects to Cavalry's native MCP server. Includes its documentation, scripting, scene inspection, previews, and three structured keyframe actions: stagger, retime, and loop closure. Keep Cavalry open with its MCP server enabled.",
+    "category": "Creativity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Inspect my current Cavalry composition.",
+      "Stagger the selected animation in Cavalry by 3 frames per layer.",
+      "Retime the selected keyframes to twice their duration."
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  },
+  "repository": "https://github.com/ebuberpg-prog/cavalry-codex-plugin",
+  "homepage": "https://github.com/ebuberpg-prog/cavalry-codex-plugin#readme"
+}

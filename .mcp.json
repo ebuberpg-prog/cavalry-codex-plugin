@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "cavalry": {
+      "command": "node",
+      "args": ["./scripts/bridge.mjs"],
+      "cwd": ".",
+      "env": {
+        "CREATIVE_MCP_APP": "Cavalry",
+        "CREATIVE_MCP_PORT": "6768",
+        "CREATIVE_MCP_FINGERPRINT": "codex-cavalry-local-plugin-v1"
+      },
+      "env_vars": ["CAVALRY_MCP_PORT"],
+      "startup_timeout_sec": 60,
+      "tool_timeout_sec": 180
+    }
+  }
+}
